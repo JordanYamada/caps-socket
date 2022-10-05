@@ -38,4 +38,4 @@ setInterval(() => {
       address: 'Schmittfort, LA',
     },
   });
-}, 3000);
+}, 20000);
