@@ -1,5 +1,6 @@
 'use strict';
 
+require('dotenv').config();
 const io = require('socket.io-client');
 const handleVendor = require('./handleVendor.js');
 
