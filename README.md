@@ -21,13 +21,13 @@ Be sure to install all dependencies.
 ## Testing
 
 Write a complete set of tests for all functional units and modules
-You can run [npm test] to run the following tests:
 
-testing event handlers
-    ✓ Driver should confirm package was picked up (24 ms)
-    ✓ Driver should confirm package is delivered (3 ms)
-    ✓ Vendor should confirm package was received (3 ms)
+You must open the server and, at least, one client in order to have the sockets communicating.
 
+Enter the following commands in separate terminals to start:
+-Server: [node src/Global/app.js]
+-Driver: [node src/Driver/handleDriver.js]
+-Vendor: [node src/Vendor/handleVendor.js]
 
 ## Documentation
 
