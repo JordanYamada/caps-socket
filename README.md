@@ -25,9 +25,10 @@ Write a complete set of tests for all functional units and modules
 You must open the server and, at least, one client in order to have the sockets communicating.
 
 Enter the following commands in separate terminals to start:
--Server: [node src/Global/app.js]
--Driver: [node src/Driver/handleDriver.js]
--Vendor: [node src/Vendor/handleVendor.js]
+
+- Server: [node src/Global/app.js]
+- Driver: [node src/Driver/handleDriver.js]
+- Vendor: [node src/Vendor/handleVendor.js]
 
 ## Documentation
 
