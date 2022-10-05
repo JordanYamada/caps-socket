@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node /src/Global/app.js",
-    "watch": "nodemon /src/Global/app.js",
+    "start": "node src/Global/app.js",
+    "watch": "nodemon src/Global/app.js",
     "lint": "eslint **/*.js",
     "test": "jest --coverage",
     "test-watch": "jest --watchAll --coverage"
